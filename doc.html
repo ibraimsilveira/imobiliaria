@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Definir a raiz do projeto
+ROOT_DIR="imobiliaria-startup"
+
+# Criar a estrutura de diretórios
+mkdir -p "$ROOT_DIR/public/css"
+mkdir -p "$ROOT_DIR/public/js"
+mkdir -p "$ROOT_DIR/public/images"
+mkdir -p "$ROOT_DIR/src/php/database"
+mkdir -p "$ROOT_DIR/src/php/models"
+mkdir -p "$ROOT_DIR/src/php/controllers"
+mkdir -p "$ROOT_DIR/src/php/views"
+mkdir -p "$ROOT_DIR/src/includes"
+mkdir -p "$ROOT_DIR/scripts"
+mkdir -p "$ROOT_DIR/styles"
+mkdir -p "$ROOT_DIR/config"
+mkdir -p "$ROOT_DIR/uploads"
+
+# Criar o arquivo index.html
+touch "$ROOT_DIR/public/index.html"
+
+echo "Estrutura de diretórios e arquivos criada com sucesso."
+
